@@ -35,6 +35,8 @@ public class JavaCdkApp {
 
                 // For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
                 .build());
+        //new JavaCdkHelloStack(app, "MySecondBucket", StackProps.builder()
+        //        .build());
 
         app.synth();
     }
