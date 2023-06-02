@@ -1,3 +1,4 @@
+[![deploy-pipeline](https://github.com/felipevelascohz/cdk-java/actions/workflows/pipeline.yml/badge.svg)](https://github.com/felipevelascohz/cdk-java/actions/workflows/pipeline.yml)
 # Welcome to your CDK Java project!
 
 This is a blank project for CDK development with Java.

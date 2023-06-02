@@ -13,6 +13,11 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v3
+            - name: set JDK
+              uses: actions/setup-java@v3
+              with:
+                distribution: 'termurin'
+                java-version: '20.0.1'
             - name: cdk diff
               uses: youyo/aws-cdk-github-actions@v2
               with:
