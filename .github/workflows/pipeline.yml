@@ -16,7 +16,7 @@ jobs:
             - name: set JDK
               uses: actions/setup-java@v3
               with:
-                distribution: 'termurin'
+                distribution: 'eclipse-temurin'
                 java-version: '20.0.1'
             - name: cdk diff
               uses: youyo/aws-cdk-github-actions@v2
